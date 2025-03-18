@@ -1,9 +1,51 @@
-[{
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.aique.pandora",
-      "sha256_cert_fingerprints":
-      ["42:4F:74:9E:D3:D3:CC:7F:82:8A:71:D4:F1:14:B0:F0:09:EA:38:65:12:0D:2D:3D:BE:0F:5E:7F:AB:9B:15:65"]
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.aique.pandora.dev",
+            "sha256_cert_fingerprints": [
+                "42:4F:74:9E:D3:D3:CC:7F:82:8A:71:D4:F1:14:B0:F0:09:EA:38:65:12:0D:2D:3D:BE:0F:5E:7F:AB:9B:15:65"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.aique.pandora.stg",
+            "sha256_cert_fingerprints": [
+                "42:4F:74:9E:D3:D3:CC:7F:82:8A:71:D4:F1:14:B0:F0:09:EA:38:65:12:0D:2D:3D:BE:0F:5E:7F:AB:9B:15:65"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.aique.pandora.uat",
+            "sha256_cert_fingerprints": [
+                "42:4F:74:9E:D3:D3:CC:7F:82:8A:71:D4:F1:14:B0:F0:09:EA:38:65:12:0D:2D:3D:BE:0F:5E:7F:AB:9B:15:65"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.aique.pandora",
+            "sha256_cert_fingerprints": [
+                // TODO: Update value with the actual production sha256_cert_fingerprints
+                "42:4F:74:9E:D3:D3:CC:7F:82:8A:71:D4:F1:14:B0:F0:09:EA:38:65:12:0D:2D:3D:BE:0F:5E:7F:AB:9B:15:65"
+            ]
+        }
     }
-  }]
+]
