@@ -1,0 +1,17 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "8ZZ6JAQ9UQ.com.aique.qmsMerchantApp",
+                    "8ZZ6JAQ9UQ.com.aique.qmsMerchantApp.dev",
+                    "8ZZ6JAQ9UQ.com.aique.qmsMerchantApp.stg",
+                    "8ZZ6JAQ9UQ.com.aique.qmsMerchantApp.uat"
+                ],
+                "paths": [
+                    "/welcome/accept-invite/*"
+                ]
+            }
+        ]
+    }
+}
